@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tjn2zfcharacter.AboutController">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Switch Charactor Creator">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleGoToA" text="Basic Creator" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleGoToB" text="Advanced Creator" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Text layoutX="85.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dungeons and Dragons Character Developer" />
+      <Text layoutX="85.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created By: Thomas Newman" />
+      <Text layoutX="80.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mizzou Student - IT Major" />
+      <Text layoutX="85.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="App designed to allow quick character creation for Dungeons and Dragons" />
+      <Text layoutX="85.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Final Project for CS3330" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3aff1b" height="200.0" layoutX="76.0" layoutY="78.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" width="470.0" />
+      <Button layoutX="129.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleGoToA" text="Simple Creator" />
+      <Button layoutX="359.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleGoToB" text="Advanced Creator" />
+   </children>
+</AnchorPane>
