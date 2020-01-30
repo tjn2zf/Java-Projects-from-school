@@ -1,0 +1,216 @@
+/*Functionality:
+    Include common element CSS so that elements only need to be edited in one location
+*/
+body {
+    background-color: beige;
+    margin-bottom: 200px;
+}
+.logo {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/* code based on w3 schools menu bar example*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:slategray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li.nav {
+    float: left;
+}
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.check {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: #111;
+    transform: scale(1.2);
+}
+
+#log {
+    float: right;
+}
+
+.active {
+    background-color: #990000;
+}
+
+.content {
+    position: relative;
+    top: 200px;
+    margin: 20px;
+}
+
+.learn {
+/*    float: left;*/
+    height: 400px;
+    width: auto;
+/*    margin: 20px;*/
+}
+
+.create {
+/*    float: left;*/
+    height: 500px;
+    width: auto;
+/*    margin: 20px;*/
+}
+.play {
+    text-align: center;
+}
+
+/* Code based on Wergeles in class photo viewer code
+
+*/ 
+
+#title {
+    text-align: center;
+    /* this is on the midterm */
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+#stage {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    background-color: #D9F9DA;
+    border: 2px solid #555;
+    margin: 0 auto;
+}
+
+#photoMenu {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 240px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #555;
+    /* make sure items fit inside the div */
+    overflow: auto;
+}
+
+
+#menuItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1em;
+}
+#menuItems li {
+    padding: 10px 0 10px 10px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    
+}
+#menuItems li:hover {
+    background-color: #eee;
+}
+
+#photoTitle {
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    width: 450px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#photoDisplay {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #555;
+}
+#imageHolder {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#infoBox {
+			margin: auto;
+            border: 1px solid black;
+			padding: 15px;
+			width: 350px;
+			min-height: 200px;
+		}
+
+/* based on in class einstein quote code*/
+.combat {
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.fight {
+    position: relative;
+    left: 150px;
+}
+#combatTitle {
+    position: relative;
+    left: 175px;
+}
+
+.left {
+    position: relative;
+    top: 350px;
+    width: 200px;
+    height: auto;
+}
+
+.right {
+    left: 800px;
+    position: relative;
+   top: 350px;
+    width: 250px;
+    height: auto; 
+}
+
+.die {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#crit {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
